@@ -1,0 +1,71 @@
+labs: 37  tests: 124  substrate units: 399
+
+units by substrate x status:
+status     a_valid  b_qc_not_passed  c_not_observed
+substrate                                          
+CEL             52               68               2
+SA              22               27               1
+SB              22               25               2
+SC              51               66               2
+SD              24               35               0
+
+qc of tests (cellulose criterion):
+qc
+fail                  68
+pass                  52
+cel_not_terminated     2
+
+termination day (t_term) by substrate, status a:
+           count   min    25%   50%    75%   max
+substrate                                       
+CEL         52.0   9.0  12.00  14.0  16.00  27.0
+SA          22.0  10.0  11.25  12.5  14.00  18.0
+SB          22.0   9.0  11.00  13.0  14.75  19.0
+SC          51.0  12.0  14.00  15.0  17.50  27.0
+SD          24.0  22.0  24.00  28.0  30.25  37.0
+
+common last day by substrate:
+            min    25%   50%    75%    max
+substrate                                 
+CEL        13.0  27.25  33.0  42.00  190.0
+SA         13.0  20.00  28.0  31.75   63.0
+SB          6.0  20.00  27.0  32.00   63.0
+SC         14.0  29.00  33.0  42.50  190.0
+SD         25.0  35.00  42.0  50.50  190.0
+
+day-10 eligible & status a: units 171, labs G = 25
+by class:
+                    units  labs
+material_class                 
+composite_feed         95    25
+lignocellulosic        24    17
+readily_degradable     52    25
+status a units already terminated by day 5: 0
+status a units already terminated by day 7: 0
+status a units already terminated by day 10: 12
+status a units already terminated by day 14: 87
+status a units already terminated by day 21: 140
+
+Y* vs Y* from published SMP.csv (same termination rule), % difference:
+count    386.000000
+mean      -0.043803
+std        0.804144
+min       -7.259781
+25%       -0.001082
+50%        0.000564
+75%        0.014369
+max        6.551458
+
+units with Y* > TBMP: 7
+
+measurement methods (tests):
+method.biogas
+AMPTS II                                   55
+Manual volumetric                          25
+Manual manometric                          24
+Other automated volumetric (custom)         7
+Absolute GC                                 4
+Gravimetric                                 4
+Other automated volumetric (commercial)     3
+Automated manometric (commerical)           2
+Automated manometric (custom)               1

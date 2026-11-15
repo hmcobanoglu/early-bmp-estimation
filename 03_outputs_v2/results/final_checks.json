@@ -1,0 +1,97 @@
+{
+ "a_IIS_both_complete": {
+  "n": 366,
+  "median": 0.0012,
+  "p90": 0.706,
+  "p95": 1.764,
+  "gt1": 27,
+  "matched": 397
+ },
+ "a_IIS_setup_bottles": 1683,
+ "a_IIS_bottles_with_gas": 1675,
+ "a_IIS_bottles_without_gas": [
+  {
+   "test.id": 106,
+   "bottle.id": 573,
+   "substrate": "SB"
+  },
+  {
+   "test.id": 106,
+   "bottle.id": 574,
+   "substrate": "SB"
+  },
+  {
+   "test.id": 121,
+   "bottle.id": 192,
+   "substrate": "SA"
+  },
+  {
+   "test.id": 204,
+   "bottle.id": 1444,
+   "substrate": "SD"
+  },
+  {
+   "test.id": 217,
+   "bottle.id": 1084,
+   "substrate": "BK"
+  },
+  {
+   "test.id": 268,
+   "bottle.id": 1113,
+   "substrate": "BK"
+  },
+  {
+   "test.id": 268,
+   "bottle.id": 1122,
+   "substrate": "SD"
+  },
+  {
+   "test.id": 273,
+   "bottle.id": 773,
+   "substrate": "SC"
+  }
+ ],
+ "a_IIS_tests_affected_status": {
+  "106": {
+   "outside_qc": 3
+  },
+  "121": {
+   "validated": 3
+  },
+  "204": {
+   "outside_qc": 3
+  },
+  "217": {
+   "outside_qc": 3
+  },
+  "268": {
+   "outside_qc": 3
+  },
+  "273": {
+   "outside_qc": 3
+  }
+ },
+ "b_IL_primary_recalc_upto_day10": {
+  "bottles": 48,
+  "points": 423,
+  "median_abs_pct": 0.0123,
+  "p90_abs_pct": 0.038,
+  "p95_abs_pct": 0.048,
+  "max_abs_pct_smp_gt20": 0.075,
+  "max_abs_NmL": 0.24,
+  "last_point_max_abs_pct": 0.0657
+ },
+ "c_dL_primary16": {
+  "dL": 0.1109,
+  "n": 10,
+  "min_peers": 8
+ },
+ "d_tests": {
+  "with_ratio": 121,
+  "with_noncel_condition": 124,
+  "with_cellulose": 122,
+  "all": 124
+ },
+ "e_heatmap_labs": 37,
+ "f_IL_P1_within10_raw": "12/16"
+}

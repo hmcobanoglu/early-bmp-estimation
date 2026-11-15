@@ -1,0 +1,17 @@
+cases: ours 426, Hafner D 412, matched 397, only ours 29, only D 15
+|dBMP| % median/p90/p95: [0.001, 0.819, 2.221]
+|dt| d median/p90/p95: [0.016, 2.617, 5.587]
+cases |dBMP| > 1%: 34
+criterion met (ours vs D) crosstab:
+rate_crit_met_1p3dnet  0.0  1.0
+complete                       
+False                    4   10
+True                    17  366
+dispersion (ln scale):
+        s_r     s_L
+CEL  0.0265  0.0199
+SA   0.0233  0.0413
+SB   0.0285  0.0399
+SC   0.0426  0.0380
+SD   0.0278  0.0287
+all  0.0323  0.0234
